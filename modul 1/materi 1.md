@@ -50,14 +50,17 @@ fmt.Println() //Akan mengeluarkan ouput dengan enter/pindah line
 fmt.Printf() //Akan mengeluarkan output dengan format yang dapat dimasuki oleh variabel
 ```
 ### Contoh implementasi:
-```fmt.Print()
+
+*fmt.Print()*
+```go
 fmt.Print("Hello World")
 fmt.Print("Hello World")
 // Output
 Hello WorldHello World //Line tidak berpindah/enter
 ```
 
-```fmt.Println()
+*fmt.Println()*
+```go
 fmt.Println("Hello World")
 fmt.Println("Hello World")
 // Output
@@ -65,7 +68,8 @@ Hello World
 Hello World //Line berpindah/enter
 ```
 
-```fmt.Printf()
+*fmt.Printf()*
+```go
 greet <- "Hello World"
 
 fmt.Printf("%s", greet)
@@ -87,13 +91,13 @@ fmt.Scanln() //Memasukkan nilai ke dalam variabel dengan enter
 ```
 
 ### Contoh implementasi:
-```
+```go
 angka : integer
 
 fmt.Scan(&angka) //Terminal code editor akan meminta input dari user
 ```
 
-```
+```go
 angka : integer
 
 fmt.Scanln(&angka) //Terminal code editor akan meminta input dari user
@@ -110,20 +114,20 @@ Variabel adalah penyimpanan data sesuai dengan tipe data yang telah ditentukan
 
 Variabel dapat dioperasikan sesuai tipe datanya, seperti `string` yang dapat ditambahkan dengan sesama `string` yang akan menginputkan sebuah string.
 *String*
-```
+```go
 "Hello" + "Hello" = "HelloHello"
 ```
 *int*
-```
+```go
 1 + 1
 ```
 *Float*
-```
+```go
 1.1 + 1.1
 ```
 
 *Contoh:*
-```
+```go
 //Deklarasi tanpa assign
 var angka int
 var huruf rune

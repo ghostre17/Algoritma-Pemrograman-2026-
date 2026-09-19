@@ -113,17 +113,18 @@ Variabel adalah penyimpanan data sesuai dengan tipe data yang telah ditentukan
 - Char (Simbol)
 
 Variabel dapat dioperasikan sesuai tipe datanya, seperti `string` yang dapat ditambahkan dengan sesama `string` yang akan menginputkan sebuah string.
+
 *String*
 ```go
 "Hello" + "Hello" = "HelloHello"
 ```
 *int*
 ```go
-1 + 1
+1 + 1 = 2
 ```
 *Float*
 ```go
-1.1 + 1.1
+1.1 + 1.1 = 2.2
 ```
 
 *Contoh:*

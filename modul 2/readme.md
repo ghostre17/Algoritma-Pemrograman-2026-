@@ -66,11 +66,16 @@ fmt.Scanln(&angka) //Terminal code editor akan meminta input dari user
 Variabel adalah penyimpanan data sesuai dengan tipe data yang telah ditentukan
 
 *Tipe Data:*
-- String (Kumpulan kata)
+- String (Kumpulan kata) 
+    > "Hello World"
 - Integer (Bilangan bulat)
+    > 1, 2, 3, 4...
 - Boolean (True or False)
+    > true / false
 - Float (Bilangan desimal)
+    > 3.14
 - Char (Simbol)
+    > 'A', 'B'
 
 Variabel dapat dioperasikan sesuai tipe datanya, seperti `string` yang dapat ditambahkan dengan sesama `string` yang akan menginputkan sebuah string.
 

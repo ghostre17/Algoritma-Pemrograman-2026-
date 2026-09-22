@@ -1,7 +1,7 @@
 # Modul 2
 ## I/O pada Golang
 
-*Input*
+*Output*
 
 ```go
 fmt.Print() //Akan mengeluarkan ouput tanpa enter/tidak pindah line
@@ -43,7 +43,7 @@ fmt.Printf("%s", greet)
 - %s string  ("Hello World"/suatu kalimat string)
 - %d integer (1, 2, 3)
 - %f float   (17.5)
-*Output*
+*Input*
 ```go
 fmt.Scan() //Memasukkan nilai ke dalam variabel tanpa enter
 fmt.Scanln() //Memasukkan nilai ke dalam variabel dengan enter
